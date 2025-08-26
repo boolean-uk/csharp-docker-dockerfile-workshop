@@ -1,8 +1,15 @@
 # Dockerfile Workshop
 
-Simple to add Dockerize the mvc application.  
+Simple MVC application which has a Dockerfile.
 
-Just:
+## Setup
 
-- Right click on teh ```workshop.wwwmvc``` project
-- 
+This was setup using: 
+- ```dotnet new sln --name workshop```
+- ```dotnet new mvc --name workshop.mvc```
+- ```dotnet sln add **/*.csproj```
+
+Then right click on the mvc project and Add Docker Support to generate the file.
+
+
+Now when you run the application will deploy to Docker.
